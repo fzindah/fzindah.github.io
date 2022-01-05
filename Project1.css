@@ -1,0 +1,142 @@
+body {
+	margin: 0px; 
+	padding: 0px; 
+	/*background photo by Max Pixel via Creative Commons - link not required*/
+	background-image: url('background1.png');  
+	background-position: center bottom; 
+	background-attachment: fixed;
+}
+
+a, h1 {
+	color:slategray;
+	text-decoration: none;
+}
+
+div {
+	background-repeat: no-repeat;
+}
+			
+h1 {
+	font-size: 56px; 
+	font-family: proxima-nova;
+}
+			
+h3 {
+	margin: 0%;
+	line-height: 150%;
+	color: #a8b3be;
+	font-family: proxima-nova;
+}
+
+h5 {
+	margin: 0%;
+	float: right;
+	font-family: Arial;  
+	color: slategray;
+}
+
+table {
+	border: 0px;
+	border-spacing: 0px;
+	table-layout: fixed;
+	cellpadding="20px";
+	color: darkslategray;
+	font-family: proxima-nova;
+	width: 100%;
+}
+
+.heading {
+	height: 550px; 
+	background-size: 28% 50%;  
+	background-image: url('computer.png'); 
+	background-position: 90% 30%;
+	background-color: powderblue; 
+	padding: 30px 30px 30px 30px;
+	font-family: proxima-nova;
+}
+			
+.title {
+	margin: 0%;
+	float: left;
+	font-size: 35px;
+}
+
+.education {
+	padding: 40px 180px 60px 180px; 
+	text-align:center;
+	background-color: slategray; 
+	font-family: proxima-nova;
+}
+
+.backgroundInfo {
+	vertical-align: top; 
+	font-family: proxima-nova;
+	padding-right: 30px; 
+	padding-left: 30px; 
+	background-color: #fbf0e1;
+}
+
+.infoText {
+	font-size: 25px;
+	line-height: 150%; 
+	color: steelblue;
+}
+
+#contact {
+	text-align: center;
+	margin-top: 90px;
+}
+
+#number {
+	text-align: center;
+	font-weight: bold;
+	font-size: 65px; 
+	color: #B1C1F2; 
+	font-family: Georgia;
+}
+
+#background {
+	border-spacing: 10px;
+ 	cellspacing: 0px;
+}
+
+#education {
+	color:#9BA4C9;
+}
+
+#hobbies {
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 25px; 
+	margin-bottom: 50px;
+	width: 80%;
+}
+
+#hobbies-title {
+	margin-top: 90px;
+	text-align: center;
+}
+
+#links {
+	width: 100%;
+	background-color: #79A6A4; 
+	font-size: 10px;
+}
+
+#links img {
+	width:300px; 
+	height: 220px;
+}
+
+#links-title {
+	font-size: 20px;
+}
+
+#profile {
+	font-size:0; 
+	background-color: #9BA4C9;
+}
+
+.contents a {
+	margin-left: 15px;
+}
