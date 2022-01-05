@@ -48,7 +48,7 @@ table {
 .heading {
 	height: 550px; 
 	background-size: 28% 50%;  
-	background-image: url('headingPic.png'); 
+	background-image: url('assets/headingPic.png'); 
 	background-position: 90% 30%;
 	background-color: powderblue; 
 	padding: 30px 30px 30px 30px;
