@@ -1,10 +1,12 @@
 body {
 	margin: 0px; 
 	padding: 0px; 
-	/*background photo by Max Pixel via Creative Commons - link not required*/
-	background-image: url('assets/background1.png');   
-	background-position: center bottom; 
+	/*background photo by Max Pixel via Creative Commons - link not required */
+	background-image: url('assets/page-background.png');
+	background-color: #18273d; 
 	background-attachment: fixed;
+	background-size: cover;
+	
 }
 
 div {
@@ -48,10 +50,9 @@ table {
 
 .heading {
 	height: 550px; 
-	background-size: 50% 85%;
-	background-image: url("assets/headingPic.png"); 
+	background-size: cover;
+	background-image: url('assets/background.png'); 
 	background-position: center bottom;
-	background-color: powderblue; 
 	padding: 30px 30px 30px 30px;
 	font-family: proxima-nova;
 }
@@ -62,8 +63,48 @@ table {
 	font-size: 35px;
 }
 
+/* format nav bar at heading */
 .contents a {
-	margin-left: 15px;
+	border: 1px solid #18273d;
+	padding: 10px 18px 10px 18px;
+	margin: 2px;
+}
+
+.contents a:hover {
+	border: 1px solid white;
+}
+
+/* Animation to fade info into heading */
+.fade-in {
+  	display: inline-block;
+  	color: slategray;
+  	animation: fadeIn linear 3s;
+  	-webkit-animation: fadeIn linear 3s;
+  	-moz-animation: fadeIn linear 3s;
+  	-o-animation: fadeIn linear 3s;
+  	-ms-animation: fadeIn linear 3s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity:1;}
+}
+
+/* Animation to slide info into heading */
+.slide-in {
+	width: 95%;
+	position: absolute;
+	animation-name: slide-in;
+	animation-duration: 3s;
+}
+
+@keyframes slide-in {
+	from {
+	margin-top: -15%;
+	}
+	to {
+	margin-top: 0%;
+	}
 }
 
 .education {
@@ -85,6 +126,18 @@ table {
 	font-size: 25px;
 	line-height: 150%; 
 	color: steelblue;
+}
+
+/* fade in sections of page when you scroll */
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 #contact {
