@@ -206,6 +206,9 @@ table {
 	width: 100%;
 	background-color: #9aabd2; 
 	font-size: 10px;
+	background-image: url('https://wallpaperaccess.com/full/1596464.jpg');
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 #links img {
