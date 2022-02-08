@@ -1,3 +1,7 @@
+/* Title: fade in scroll
+ * Author: Staffan Adolfson 
+ * Availability: codepen */
+
 $(document).on("scroll", function() {
   var pageTop = $(document).scrollTop();
   var pageBottom = pageTop + $(window).height();
