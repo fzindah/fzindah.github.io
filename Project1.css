@@ -42,7 +42,7 @@ table {
 	border: 0px;
 	border-spacing: 0px;
 	table-layout: fixed;
-	cellpadding="20px";
+	cellpadding:"20px";
 	color: darkslategray;
 	font-family: proxima-nova;
 	width: 100%;
@@ -58,9 +58,8 @@ table {
 }
 
 .heading-text {
-        position:absolute;                 
-        bottom:25%;                         
-        right:10%;     
+        display: block;
+	margin-left: 5%;
 	text-align: center;
 	color: #49697a;
 }
@@ -101,7 +100,7 @@ table {
 /* Animation to slide info into heading */
 .slide-in {
 	width: 95%;
-	position: absolute;
+	display: block;
 	animation-name: slide-in;
 	animation-duration: 3s;
 }
