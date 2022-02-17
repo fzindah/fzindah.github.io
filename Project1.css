@@ -59,7 +59,6 @@ table {
 
 .heading-text {
         display: block;
-	margin-left: 5%;
 	text-align: center;
 	color: #49697a;
 }
@@ -83,7 +82,7 @@ table {
 
 /* Animation to fade info into heading */
 .fade-in {
-  	display: inline-block;
+  	display: block;
   	color: slategray;
   	animation: fadeIn linear 3s;
   	-webkit-animation: fadeIn linear 3s;
@@ -99,7 +98,7 @@ table {
 
 /* Animation to slide info into heading */
 .slide-in {
-	width: 95%;
+	width: 100%;
 	display: block;
 	animation-name: slide-in;
 	animation-duration: 3s;
