@@ -149,6 +149,15 @@ table {
 	margin-top: 90px;
 }
 
+#contact-text img {
+	height: 50px;
+	width: 50px;
+}
+
+#contact-text {
+	width: 70px;
+}
+
 #number {
 	text-align: center;
 	font-weight: bold;
