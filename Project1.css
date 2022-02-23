@@ -147,18 +147,17 @@ table {
 #contact {
 	text-align: center;
 	margin-top: 90px;
-	text-align: right;
-	
 }
 
 #contact-text img {
 	height: 60px;
 	width: 60px;
+	margin-right: 50px;
 }
 
 #contact-text {
 	width: 70%;
-	
+	text-align: right;
 }
 
 #number {
