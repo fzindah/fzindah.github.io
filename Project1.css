@@ -16,7 +16,6 @@ h1, a {
 	text-decoration: none;
 }
 
-/* style h1 tags */
 h1 {
 	font-size: 56px; 
 	font-family: proxima-nova;
@@ -46,6 +45,7 @@ table {
 	width: 100%;
 }
 
+/* style heading */
 .heading {
 	height: 550px; 
 	background-size: cover;
@@ -60,7 +60,8 @@ table {
 	text-align: center;
 	color: #49697a;
 }
-			
+
+/* style title */
 .title {
 	margin: 0%;
 	float: left;
@@ -111,6 +112,7 @@ table {
 	}
 }
 
+/* style education */
 .education {
 	padding: 40px 180px 60px 180px; 
 	text-align:center;
@@ -118,6 +120,7 @@ table {
 	font-family: proxima-nova;
 }
 
+/* style background info */
 .backgroundInfo {
 	vertical-align: top; 
 	font-family: proxima-nova;
@@ -142,6 +145,12 @@ table {
 .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
+}
+
+/* style contact information */
+#accounts {
+	color: #B1C1F2; 
+	padding-left: 30px;
 }
 
 #contact {
