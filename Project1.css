@@ -148,7 +148,7 @@ table {
 }
 
 /* style contact information */
-#accounts {
+.accounts {
 	color: #B1C1F2; 
 	padding-left: 30px;
 }
