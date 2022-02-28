@@ -1,26 +1,26 @@
+/* body styles */
 body {
 	margin: 0px; 
 	padding: 0px; 
 	background-color: #18273d; 
 	background-attachment: fixed;
 	background-size: cover;
-	
-}
-
-div {
 	background-repeat: no-repeat;
 }
 
+/* heading and link styles */
 h1, a {
 	color:slategray;
 	text-decoration: none;
 }
 
+/* heading 1 styles*/
 h1 {
 	font-size: 56px; 
 	font-family: proxima-nova;
 }
-			
+
+/* heading 4 styles */
 h3 {
 	margin: 0%;
 	line-height: 150%;
@@ -28,6 +28,7 @@ h3 {
 	font-family: proxima-nova;
 }
 
+/* heading 5 styles */
 h5 {
 	margin: 0%;
 	float: right;
@@ -35,6 +36,7 @@ h5 {
 	color: slategray;
 }
 
+/* table styles */
 table {
 	border: 0px;
 	border-spacing: 0px;
@@ -45,7 +47,7 @@ table {
 	width: 100%;
 }
 
-/* style heading */
+/* style page header */
 .heading {
 	height: 550px; 
 	background-size: cover;
@@ -79,7 +81,7 @@ table {
 	border: 1px solid white;
 }
 
-/* Animation to fade info into heading */
+/* Animation to fade text into heading */
 .fade-in {
   	display: block;
   	color: slategray;
@@ -177,12 +179,13 @@ table {
 	font-family: Georgia;
 }
 
+/* style background info */
 #background {
 	border-spacing: 10px;
  	cellspacing: 0px;
 }
 
-
+/* style profile */
 #profile {
 	font-size:0; 
 	background-color: #9BA4C9;
@@ -194,17 +197,18 @@ table {
 	display: block;
 }
 
+/* style education */
 #edu-info {
 	font-size:25px;
 	line-height: 150%;
 	color:#fff9f1;
 }
 
-
 #education {
 	color:#9BA4C9;
 }
 
+/* style skills div */
 #hobbies {
 	margin-left: auto; 
 	margin-right: auto;
@@ -219,6 +223,7 @@ table {
 	text-align: center;
 }
 
+/* style projects and page links */
 #links {
 	width: 100%;
 	background-color: white;
