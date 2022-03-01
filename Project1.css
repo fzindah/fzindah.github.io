@@ -138,6 +138,46 @@ table {
 	color: steelblue;
 }
 
+/* style projects and page links */
+.projects {
+	width: 100%;
+	text-align: center;
+	/*background-image: linear-gradient(to left, #18273d, #a3cee3);*/
+	background-color: black;
+}
+
+.slideshow {
+	display: flex;
+	justify-content: center;
+}
+
+.show {
+	transition: 0.5s;
+	height: 220px;
+	width: 350px;
+	margin: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+  	padding-bottom: 50px;
+}
+
+.show:hover {
+	box-shadow: 0 0 0 200px rgba(0,0,0,0.9) inset;
+}
+
+/* style project pictures */
+.pic1 {
+	background-image: url("assets/Java1.PNG");
+}
+
+.pic2 {
+	background-image: url("assets/Java2.PNG");
+}
+
+.pic3 {
+	background-image: url("assets/website.PNG");
+}
+
 /* fade in sections of page when you scroll */
 .tag {
   opacity: 0;
@@ -222,45 +262,5 @@ table {
 #hobbies-title {
 	margin-top: 90px;
 	text-align: center;
-}
-
-/* style projects and page links */
-.projects {
-	width: 100%;
-	text-align: center;
-	/*background-image: linear-gradient(to left, #18273d, #a3cee3);*/
-	background-color: white;
-}
-
-.slideshow {
-	display: flex;
-	justify-content: center;
-}
-
-.show {
-	transition: 0.5s;
-	height: 220px;
-	width: 350px;
-	margin: 15px;
-	background-repeat: no-repeat;
-	background-size: cover;
-  	padding-bottom: 50px;
-}
-
-.show:hover {
-	box-shadow: 0 0 0 200px rgba(0,0,0,0.9) inset;
-}
-
-/* style project pictures */
-.pic1 {
-	background-image: url("assets/Java1.PNG");
-}
-
-.pic2 {
-	background-image: url("assets/Java2.PNG");
-}
-
-.pic3 {
-	background-image: url("assets/website.PNG");
 }
 
