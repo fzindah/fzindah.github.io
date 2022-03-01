@@ -3,6 +3,7 @@ body {
 	margin: 0px; 
 	padding: 0px; 
 	background-color: #18273d; 
+	background-image: linear-gradient(#18273d 25%, 75%, #a3cee3);
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
